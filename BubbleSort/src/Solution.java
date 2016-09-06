@@ -8,6 +8,7 @@ public class Solution {
 	 * ordenação esteja feita, por isso mesmo não é o mais performático. Sendo
 	 * assim, não é indicado para ordenação de grande quantidade de dados.
 	 * 
+	 * *útil para entendimento inicial da ordenação de vetores
 	 */
 
 	public static void main(String[] args) {
@@ -19,7 +20,7 @@ public class Solution {
 			System.out.print(vet[i] + " ");
 		}
 
-		for (int i = 0; i < 5; i++) {
+		for (int i = 0; i < vet.length; i++) {
 			for (int j = 0; j < vet.length - 1; j++) {
 				if (vet[j] > vet[j + 1]) {
 					int aux = vet[j];
