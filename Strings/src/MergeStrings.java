@@ -13,7 +13,7 @@
 // b = Bdf jm
 // resultado: ABcdefg ijlmn p
 
-public class Solution {
+public class MergeStrings {
 
 	public static void main(String[] args) {
 
