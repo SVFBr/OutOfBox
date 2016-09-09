@@ -12,16 +12,16 @@ public class MergeArrays {
 	public static void main(String[] args) {
 
 		int a[] = { 1, 2, 3, 4, 5 };
-
 		int n = a.length;
 
-		System.out.println("Tamanho do array: " + n);
-		System.out.println("");
-
 		for (int i = 0; i < n - i; i++) {
+			System.out.print(a[i]);
+			if (i >= n / 2)
+				break;
+			System.out.print(a[n - (i + 1)]);
 
-			System.out.println(a[i]);
-			System.out.println(a[n - (i + 1)] + ".");
+			// Teste de retorno para parada
+			// System.out.println(Math.abs(i) + "abs");
 
 		}
 	}
